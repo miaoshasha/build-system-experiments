@@ -1,6 +1,6 @@
 cc_library(
       name = "gtest",
-      srcs = (
+      srcs = glob(
           ["src/*.cc"],
           exclude = ["src/gtest-all.cc"]
       ),
