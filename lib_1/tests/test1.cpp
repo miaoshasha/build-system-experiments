@@ -3,5 +3,7 @@
 
 TEST(lib1_test, simple)
 {
-  EXPECT_EQ(print(),"Hello World!");
+  int a = 1;
+  EXPECT_EQ(a, 1);
+  EXPECT_TRUE(true);
 }
