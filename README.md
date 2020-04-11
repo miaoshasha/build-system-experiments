@@ -1,2 +1,2 @@
 # build-system-experiments
-a test software package that intends to build targets written in different programming languages and have different libraries integrated
+An experiment software package that demonstrates how to use the bazel build system. Aim to include different coding languages, external packages and backend infrastructure setup.
