@@ -10,5 +10,6 @@ cc_library(
 cc_binary(
     name = "use_lib1_binary",
     srcs = ["use_lib1_binary.cpp"],
-    deps = [":lib_1",],
+    deps = [":lib_1",
+            "@eigen//:eigen",],
 )
